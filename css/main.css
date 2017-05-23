@@ -3,6 +3,7 @@ body{
 	padding: 0;
 }
 
+
 #contenedor{
 	width: 600px;
 	margin: 0 auto;
@@ -15,6 +16,74 @@ body{
 	position: relative;
 	background: url("../img/pulpobit.jpg");
 	background-size: cover;
-	background-position: left;
+	background-position: center;
 	border: solid thin silver;
+}
+
+.fondo{
+	width: 260px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-bottom: 300px solid dimgray;
+    position: relative;
+    left: 240px;
+}
+
+
+.logo{
+	width: 200px;
+	height: 68px;
+	position: absolute;
+	background: url("../img/Laboratoria_Logo.png");
+	background-size: cover;
+	background-position: top;
+    left: 90px;
+}
+
+.texto{
+	text-align: center;
+	top: 50px;
+	left: 20px;
+	width: 200px;
+	position: absolute;
+}
+
+p, h3, h4{
+	font-family: Helvetica, verdana, Times;
+	font-weight: lighter;
+}
+
+h3{
+	color: white;
+	text-align: center;
+	font-size: 24px;
+}
+
+h4{
+	color: goldenrod;
+	text-align: center;
+	font-size: 18px;
+	top:-12px;
+	position: relative;
+}
+
+p{
+	color: white;
+	text-align: left;
+	font-size: 14px;
+	position: relative;
+	left: -30px;
+
+}
+
+
+.iso{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background: url("../img/Laboratoria_Isotipo CodeAcademy.png");
+	background-size: cover;
+	background-position: top;
+	top: 249px;
+    left: 180px;
 }
