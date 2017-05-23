@@ -24,7 +24,7 @@ body{
 	width: 260px;
     height: 0px;
     border-left: 100px solid transparent;
-    border-bottom: 300px solid dimgray;
+    border-bottom: 300px solid slategray;
     position: relative;
     left: 240px;
 }
@@ -42,14 +42,14 @@ body{
 
 .texto{
 	text-align: center;
-	top: 50px;
+	top: 40px;
 	left: 20px;
 	width: 200px;
 	position: absolute;
 }
 
 p, h3, h4{
-	font-family: Helvetica, verdana, Times;
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: lighter;
 }
 
@@ -84,6 +84,6 @@ p{
 	background: url("../img/Laboratoria_Isotipo CodeAcademy.png");
 	background-size: cover;
 	background-position: top;
-	top: 249px;
-    left: 180px;
+	top: 210px;
+    left: 190px;
 }
